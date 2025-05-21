@@ -1,0 +1,108 @@
+*{
+ margin: 0;
+ padding: 0;
+}   
+
+body{
+    background-color: #f4f4f4;
+}
+nav .menu {
+    display: none;
+}
+nav:hover .menu{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    background-color: #4d4d4d;
+}
+nav{
+    padding: 20px 10px;
+
+}
+nav a{
+    color: #fff;
+    font-size: 18px;
+}
+.content{
+    padding: 10px;
+}
+h2{
+    color: #4d4d4d;
+    padding: 20px 0;
+}
+.texto p, .item p{
+    text-align: justify;
+    line-height: 20px;
+    padding: 20px 0;
+}
+.cta-btn{
+    background-color: #4d4d4d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.cta-btn a{
+    color: #fff;
+}
+.missao, .visao, .valores{   
+       background-color: #ececec; 
+       padding: 20px;
+       margin: 20px 0;
+       border-radius: 10px;
+}
+
+#servicos{
+    background-color: #fff;
+}
+#servicos h2{
+    color: #fff;
+}
+#servicos .item{
+    width: 47%;
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
+    font-size: 14px;
+}
+#proficionais .item{
+background-color: #ececec;
+padding: 20px;
+margin: 20px 0;
+text-align: center;
+
+}
+#proficionais .imagem{
+    background-color: #4d4d4d;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 200px;
+    margin-bottom: 20px ;
+    margin-top: 10px;
+
+}
+#contato label{
+    width: 100%;
+    display: block;
+}
+#contato input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+footer{
+    background-color: #4d4d4d;
+    padding: 50px 0;
+    font-size: 20px;
+    color: #fff;
+}
+.cor{
+    color: #fff;
+}
